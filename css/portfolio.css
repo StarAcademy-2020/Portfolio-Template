@@ -1,0 +1,23 @@
+.row img
+{
+width: 100%;
+height: 200px;
+}
+.row h4
+{
+    text-align: center;
+}
+.row p
+{
+    text-align: justify;
+}
+.sub-navebar
+{
+    height: 60px;
+    width: 100%;
+    background-color: #1abc9c;
+}
+.port-folio
+{
+    background-color: #dcdcdcab;
+}

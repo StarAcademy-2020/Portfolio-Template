@@ -1,0 +1,1300 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.header {
+    width: 100%;
+    height: 100px;
+    border: 1px solid rgb(235, 222, 222);
+}
+
+.logo {
+    float: left;
+    width: 20%;
+    margin-left: 10px;
+    font-weight: bold;
+    font-size: 30px;
+    border-right: 1px solid rgb(235, 222, 222);
+}
+
+.navbar {
+    float: left;
+    width: 55%;
+
+    font-weight: bold;
+    font-size: 15px;
+
+    margin-top: 30px;
+}
+
+.navbar a {
+    margin: 20px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    color: #1abc9c;
+
+}
+
+.searchicon {
+    float: left;
+    width: 20%;
+    margin-left: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    border-left: 1px solid rgb(235, 222, 222);
+}
+
+.searchicon h1 {
+    margin-left: 20px;
+}
+
+.nav {
+    height: 50px;
+    width: 100%;
+    background-color: #1abc9c;
+    /* border:  1px solid red; */
+}
+
+.nav1 {
+    width: 30%;
+    float: left;
+}
+
+.nav1 p {
+    margin-top: 18px;
+    margin-left: 30px;
+    color: white;
+}
+
+.nav2 {
+    width: 70%;
+    float: left;
+    margin-top: 18px;
+}
+
+.nav2 a {
+
+    margin: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.nav2 a:hover {
+    /* height: 40px;
+    width: 40px; */
+    background-color: rgba(10, 40, 124, 0.103);
+    /* margin: 15px; */
+    padding: 15px;
+    border-radius: 10px 10px 10px 10px;
+}
+.portfolio
+{
+    height: 200px;
+    width: 100%;
+    background-color: gainsboro;
+}
+.portfolio1
+{
+float: left;
+width: 80%;
+}
+.portfolio1 h1
+{
+    margin-top: 40px;
+    margin-left: 30px;
+   
+}
+.portfolio1 p
+{
+    
+    margin-left: 30px;
+   
+}
+.portfolio2
+{
+float: left;
+width: 15%;
+margin-top: 80px;
+
+}
+.main_contents
+{
+    height: auto;
+    width: 100%;
+    /* background-color: rgb(15, 76, 129); */
+    /* margin-top: 10px; */
+    /* border: 1px solid red; */
+
+}
+.main1
+{
+    width: 50%;
+    height: auto;
+    /* background-color: green; */
+    float: left;
+}
+.main2
+{
+    width: 50%;
+    height: auto;
+    /* background-color: rgb(42, 46, 42); */
+    float: left;
+}
+.box1
+{
+    height: 200px;
+    width: 300px;
+    /* border: 1px solid yellow; */
+    float: left;
+    margin-left: 30px;
+}
+.box2
+{
+    height: 200px;
+    width: 300px;
+    /* border: 1px solid yellow; */
+    float: left;
+    margin-left: 30px;
+}
+.main_contents_section
+{
+    margin-top: 100px;
+}
+.footer
+{
+    height: 300px;
+    width: 100%;
+    background-color: black;
+    /* border: 1px solid red; */
+    margin-top: 400px;
+}
+.footer1
+{
+    width: 25%;
+    float: left;
+    color: white;
+    margin-top: 40px;
+    margin-left: 50px;
+}
+.footer2
+{
+    width: 25%;
+    float: left;
+    color: white;
+    margin-top: 40px;
+    
+}
+.footer3
+{
+    width: 25%;
+    float: left;
+    color: white;
+    margin-top: 40px;
+
+}
+.footer4
+{
+    width: 20%;
+    float: left;
+    color: white;
+    margin-top: 40px;
+    
+}
+.copyright
+{
+    text-align: center;
+    height: 30px;
+    width: 100%;
+    background-color: #1abc9c;
+    color: white;
+}
+
+/*----------------------Media Queries for responsive webpage--------------------------*/
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    .header {
+        width: 100%;
+        height: 100px;
+        border: 1px solid rgb(235, 222, 222);
+    }
+    
+    .logo {
+        float: left;
+        width: 20%;
+        margin-left: 10px;
+        font-weight: bold;
+        font-size: 30px;
+        border-right: 1px solid rgb(235, 222, 222);
+    }
+    
+    .navbar {
+        float: left;
+        width: 55%;
+    
+        font-weight: bold;
+        font-size: 15px;
+    
+        margin-top: 30px;
+    }
+    
+    .navbar a {
+        margin: 20px;
+        text-decoration: none;
+    }
+    
+    .navbar a:hover {
+        color: #1abc9c;
+    
+    }
+    
+    .searchicon {
+        float: left;
+        width: 20%;
+        margin-left: 10px;
+        font-weight: bold;
+        font-size: 20px;
+        border-left: 1px solid rgb(235, 222, 222);
+    }
+    
+    .searchicon h1 {
+        margin-left: 20px;
+    }
+    
+    .nav {
+        height: 50px;
+        width: 100%;
+        background-color: #1abc9c;
+        /* border:  1px solid red; */
+    }
+    
+    .nav1 {
+        width: 30%;
+        float: left;
+    }
+    
+    .nav1 p {
+        margin-top: 18px;
+        margin-left: 30px;
+        color: white;
+    }
+    
+    .nav2 {
+        width: 70%;
+        float: left;
+        margin-top: 18px;
+    }
+    
+    .nav2 a {
+    
+        margin: 10px;
+        color: white;
+        text-decoration: none;
+    }
+    
+    .nav2 a:hover {
+        /* height: 40px;
+        width: 40px; */
+        background-color: rgba(10, 40, 124, 0.103);
+        /* margin: 15px; */
+        padding: 15px;
+        border-radius: 10px 10px 10px 10px;
+    }
+    .portfolio
+    {
+        height: 200px;
+        width: 100%;
+        background-color: gainsboro;
+    }
+    .portfolio1
+    {
+    float: left;
+    width: 80%;
+    }
+    .portfolio1 h1
+    {
+        margin-top: 40px;
+        margin-left: 30px;
+       
+    }
+    .portfolio1 p
+    {
+        
+        margin-left: 30px;
+       
+    }
+    .portfolio2
+    {
+    float: left;
+    width: 15%;
+    margin-top: 80px;
+    
+    }
+    .main_contents
+    {
+        height: auto;
+        width: 100%;
+        /* background-color: rgb(15, 76, 129); */
+        /* margin-top: 10px; */
+        /* border: 1px solid red; */
+    
+    }
+    .main1
+    {
+        width: 50%;
+        height: auto;
+        /* background-color: green; */
+        float: left;
+    }
+    .main2
+    {
+        width: 50%;
+        height: auto;
+        /* background-color: rgb(42, 46, 42); */
+        float: left;
+    }
+    .box1
+    {
+        height: 200px;
+        width: 300px;
+        /* border: 1px solid yellow; */
+        float: left;
+        margin-left: 30px;
+    }
+    .box2
+    {
+        height: 200px;
+        width: 300px;
+        /* border: 1px solid yellow; */
+        float: left;
+        margin-left: 30px;
+    }
+    .main_contents_section
+    {
+        margin-top: 100px;
+    }
+    .footer
+    {
+        height: 300px;
+        width: 100%;
+        background-color: black;
+        /* border: 1px solid red; */
+        margin-top: 400px;
+    }
+    .footer1
+    {
+        width: 25%;
+        float: left;
+        color: white;
+        margin-top: 40px;
+        margin-left: 50px;
+    }
+    .footer2
+    {
+        width: 25%;
+        float: left;
+        color: white;
+        margin-top: 40px;
+        
+    }
+    .footer3
+    {
+        width: 25%;
+        float: left;
+        color: white;
+        margin-top: 40px;
+    
+    }
+    .footer4
+    {
+        width: 20%;
+        float: left;
+        color: white;
+        margin-top: 40px;
+        
+    }
+    .copyright
+    {
+        text-align: center;
+        height: 30px;
+        width: 100%;
+        background-color: #1abc9c;
+        color: white;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    .header {
+        width: 100%;
+        height: 100px;
+        border: 1px solid rgb(235, 222, 222);
+    }
+    
+    .logo {
+        float: left;
+        width: 20%;
+        margin-left: 10px;
+        font-weight: bold;
+        font-size: 30px;
+        border-right: 1px solid rgb(235, 222, 222);
+    }
+    
+    .navbar {
+        float: left;
+        width: 55%;
+    
+        font-weight: bold;
+        font-size: 15px;
+    
+        margin-top: 30px;
+    }
+    
+    .navbar a {
+        margin: 20px;
+        text-decoration: none;
+    }
+    
+    .navbar a:hover {
+        color: #1abc9c;
+    
+    }
+    
+    .searchicon {
+        float: left;
+        width: 20%;
+        margin-left: 10px;
+        font-weight: bold;
+        font-size: 20px;
+        border-left: 1px solid rgb(235, 222, 222);
+    }
+    
+    .searchicon h1 {
+        margin-left: 20px;
+    }
+    
+    .nav {
+        height: 50px;
+        width: 100%;
+        background-color: #1abc9c;
+        /* border:  1px solid red; */
+    }
+    
+    .nav1 {
+        width: 30%;
+        float: left;
+    }
+    
+    .nav1 p {
+        margin-top: 18px;
+        margin-left: 30px;
+        color: white;
+    }
+    
+    .nav2 {
+        width: 70%;
+        float: left;
+        margin-top: 18px;
+    }
+    
+    .nav2 a {
+    
+        margin: 10px;
+        color: white;
+        text-decoration: none;
+    }
+    
+    .nav2 a:hover {
+        /* height: 40px;
+        width: 40px; */
+        background-color: rgba(10, 40, 124, 0.103);
+        /* margin: 15px; */
+        padding: 15px;
+        border-radius: 10px 10px 10px 10px;
+    }
+    .portfolio
+    {
+        height: 200px;
+        width: 100%;
+        background-color: gainsboro;
+    }
+    .portfolio1
+    {
+    float: left;
+    width: 80%;
+    }
+    .portfolio1 h1
+    {
+        margin-top: 40px;
+        margin-left: 30px;
+       
+    }
+    .portfolio1 p
+    {
+        
+        margin-left: 30px;
+       
+    }
+    .portfolio2
+    {
+    float: left;
+    width: 15%;
+    margin-top: 80px;
+    
+    }
+    .main_contents
+    {
+        height: auto;
+        width: 100%;
+        /* background-color: rgb(15, 76, 129); */
+        /* margin-top: 10px; */
+        /* border: 1px solid red; */
+    
+    }
+    .main1
+    {
+        width: 50%;
+        height: auto;
+        /* background-color: green; */
+        float: left;
+    }
+    .main2
+    {
+        width: 50%;
+        height: auto;
+        /* background-color: rgb(42, 46, 42); */
+        float: left;
+    }
+    .box1
+    {
+        height: 200px;
+        width: 300px;
+        /* border: 1px solid yellow; */
+        float: left;
+        margin-left: 30px;
+    }
+    .box2
+    {
+        height: 200px;
+        width: 300px;
+        /* border: 1px solid yellow; */
+        float: left;
+        margin-left: 30px;
+    }
+    .main_contents_section
+    {
+        margin-top: 100px;
+    }
+    .footer
+    {
+        height: 300px;
+        width: 100%;
+        background-color: black;
+        /* border: 1px solid red; */
+        margin-top: 400px;
+    }
+    .footer1
+    {
+        width: 25%;
+        float: left;
+        color: white;
+        margin-top: 40px;
+        margin-left: 50px;
+    }
+    .footer2
+    {
+        width: 25%;
+        float: left;
+        color: white;
+        margin-top: 40px;
+        
+    }
+    .footer3
+    {
+        width: 25%;
+        float: left;
+        color: white;
+        margin-top: 40px;
+    
+    }
+    .footer4
+    {
+        width: 20%;
+        float: left;
+        color: white;
+        margin-top: 40px;
+        
+    }
+    .copyright
+    {
+        text-align: center;
+        height: 30px;
+        width: 100%;
+        background-color: #1abc9c;
+        color: white;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    .header {
+        width: 100%;
+        height: 100px;
+        border: 1px solid rgb(235, 222, 222);
+    }
+    
+    .logo {
+        float: left;
+        width: 20%;
+        margin-left: 10px;
+        font-weight: bold;
+        font-size: 30px;
+        border-right: 1px solid rgb(235, 222, 222);
+    }
+    
+    .navbar {
+        float: left;
+        width: 55%;
+    
+        font-weight: bold;
+        font-size: 15px;
+    
+        margin-top: 30px;
+    }
+    
+    .navbar a {
+        margin: 20px;
+        text-decoration: none;
+    }
+    
+    .navbar a:hover {
+        color: #1abc9c;
+    
+    }
+    
+    .searchicon {
+        float: left;
+        width: 20%;
+        margin-left: 10px;
+        font-weight: bold;
+        font-size: 20px;
+        border-left: 1px solid rgb(235, 222, 222);
+    }
+    
+    .searchicon h1 {
+        margin-left: 20px;
+    }
+    
+    .nav {
+        height: 50px;
+        width: 100%;
+        background-color: #1abc9c;
+        /* border:  1px solid red; */
+    }
+    
+    .nav1 {
+        width: 30%;
+        float: left;
+    }
+    
+    .nav1 p {
+        margin-top: 18px;
+        margin-left: 30px;
+        color: white;
+    }
+    
+    .nav2 {
+        width: 70%;
+        float: left;
+        margin-top: 18px;
+    }
+    
+    .nav2 a {
+    
+        margin: 10px;
+        color: white;
+        text-decoration: none;
+    }
+    
+    .nav2 a:hover {
+        /* height: 40px;
+        width: 40px; */
+        background-color: rgba(10, 40, 124, 0.103);
+        /* margin: 15px; */
+        padding: 15px;
+        border-radius: 10px 10px 10px 10px;
+    }
+    .portfolio
+    {
+        height: 200px;
+        width: 100%;
+        background-color: gainsboro;
+    }
+    .portfolio1
+    {
+    float: left;
+    width: 80%;
+    }
+    .portfolio1 h1
+    {
+        margin-top: 40px;
+        margin-left: 30px;
+       
+    }
+    .portfolio1 p
+    {
+        
+        margin-left: 30px;
+       
+    }
+    .portfolio2
+    {
+    float: left;
+    width: 15%;
+    margin-top: 80px;
+    
+    }
+    .main_contents
+    {
+        height: auto;
+        width: 100%;
+        /* background-color: rgb(15, 76, 129); */
+        /* margin-top: 10px; */
+        /* border: 1px solid red; */
+    
+    }
+    .main1
+    {
+        width: 50%;
+        height: auto;
+        /* background-color: green; */
+        float: left;
+    }
+    .main2
+    {
+        width: 50%;
+        height: auto;
+        /* background-color: rgb(42, 46, 42); */
+        float: left;
+    }
+    .box1
+    {
+        height: 200px;
+        width: 300px;
+        /* border: 1px solid yellow; */
+        float: left;
+        margin-left: 30px;
+    }
+    .box2
+    {
+        height: 200px;
+        width: 300px;
+        /* border: 1px solid yellow; */
+        float: left;
+        margin-left: 30px;
+    }
+    .main_contents_section
+    {
+        margin-top: 100px;
+    }
+    .footer
+    {
+        height: 300px;
+        width: 100%;
+        background-color: black;
+        /* border: 1px solid red; */
+        margin-top: 400px;
+    }
+    .footer1
+    {
+        width: 25%;
+        float: left;
+        color: white;
+        margin-top: 40px;
+        margin-left: 50px;
+    }
+    .footer2
+    {
+        width: 25%;
+        float: left;
+        color: white;
+        margin-top: 40px;
+        
+    }
+    .footer3
+    {
+        width: 25%;
+        float: left;
+        color: white;
+        margin-top: 40px;
+    
+    }
+    .footer4
+    {
+        width: 20%;
+        float: left;
+        color: white;
+        margin-top: 40px;
+        
+    }
+    .copyright
+    {
+        text-align: center;
+        height: 30px;
+        width: 100%;
+        background-color: #1abc9c;
+        color: white;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    .header {
+        width: 100%;
+        height: 100px;
+        border: 1px solid rgb(235, 222, 222);
+    }
+    
+    .logo {
+        float: left;
+        width: 20%;
+        margin-left: 10px;
+        font-weight: bold;
+        font-size: 30px;
+        border-right: 1px solid rgb(235, 222, 222);
+    }
+    
+    .navbar {
+        float: left;
+        width: 55%;
+    
+        font-weight: bold;
+        font-size: 15px;
+    
+        margin-top: 30px;
+    }
+    
+    .navbar a {
+        margin: 20px;
+        text-decoration: none;
+    }
+    
+    .navbar a:hover {
+        color: #1abc9c;
+    
+    }
+    
+    .searchicon {
+        float: left;
+        width: 20%;
+        margin-left: 10px;
+        font-weight: bold;
+        font-size: 20px;
+        border-left: 1px solid rgb(235, 222, 222);
+    }
+    
+    .searchicon h1 {
+        margin-left: 20px;
+    }
+    
+    .nav {
+        height: 50px;
+        width: 100%;
+        background-color: #1abc9c;
+        /* border:  1px solid red; */
+    }
+    
+    .nav1 {
+        width: 30%;
+        float: left;
+    }
+    
+    .nav1 p {
+        margin-top: 18px;
+        margin-left: 30px;
+        color: white;
+    }
+    
+    .nav2 {
+        width: 70%;
+        float: left;
+        margin-top: 18px;
+    }
+    
+    .nav2 a {
+    
+        margin: 10px;
+        color: white;
+        text-decoration: none;
+    }
+    
+    .nav2 a:hover {
+        /* height: 40px;
+        width: 40px; */
+        background-color: rgba(10, 40, 124, 0.103);
+        /* margin: 15px; */
+        padding: 15px;
+        border-radius: 10px 10px 10px 10px;
+    }
+    .portfolio
+    {
+        height: 200px;
+        width: 100%;
+        background-color: gainsboro;
+    }
+    .portfolio1
+    {
+    float: left;
+    width: 80%;
+    }
+    .portfolio1 h1
+    {
+        margin-top: 40px;
+        margin-left: 30px;
+       
+    }
+    .portfolio1 p
+    {
+        
+        margin-left: 30px;
+       
+    }
+    .portfolio2
+    {
+    float: left;
+    width: 15%;
+    margin-top: 80px;
+    
+    }
+    .main_contents
+    {
+        height: auto;
+        width: 100%;
+        /* background-color: rgb(15, 76, 129); */
+        /* margin-top: 10px; */
+        /* border: 1px solid red; */
+    
+    }
+    .main1
+    {
+        width: 50%;
+        height: auto;
+        /* background-color: green; */
+        float: left;
+    }
+    .main2
+    {
+        width: 50%;
+        height: auto;
+        /* background-color: rgb(42, 46, 42); */
+        float: left;
+    }
+    .box1
+    {
+        height: 200px;
+        width: 300px;
+        /* border: 1px solid yellow; */
+        float: left;
+        margin-left: 30px;
+    }
+    .box2
+    {
+        height: 200px;
+        width: 300px;
+        /* border: 1px solid yellow; */
+        float: left;
+        margin-left: 30px;
+    }
+    .main_contents_section
+    {
+        margin-top: 100px;
+    }
+    .footer
+    {
+        height: 300px;
+        width: 100%;
+        background-color: black;
+        /* border: 1px solid red; */
+        margin-top: 400px;
+    }
+    .footer1
+    {
+        width: 25%;
+        float: left;
+        color: white;
+        margin-top: 40px;
+        margin-left: 50px;
+    }
+    .footer2
+    {
+        width: 25%;
+        float: left;
+        color: white;
+        margin-top: 40px;
+        
+    }
+    .footer3
+    {
+        width: 25%;
+        float: left;
+        color: white;
+        margin-top: 40px;
+    
+    }
+    .footer4
+    {
+        width: 20%;
+        float: left;
+        color: white;
+        margin-top: 40px;
+        
+    }
+    .copyright
+    {
+        text-align: center;
+        height: 30px;
+        width: 100%;
+        background-color: #1abc9c;
+        color: white;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    .header {
+        width: 100%;
+        height: 100px;
+        border: 1px solid rgb(235, 222, 222);
+    }
+    
+    .logo {
+        float: left;
+        width: 20%;
+        margin-left: 10px;
+        font-weight: bold;
+        font-size: 30px;
+        border-right: 1px solid rgb(235, 222, 222);
+    }
+    
+    .navbar {
+        float: left;
+        width: 55%;
+    
+        font-weight: bold;
+        font-size: 15px;
+    
+        margin-top: 30px;
+    }
+    
+    .navbar a {
+        margin: 20px;
+        text-decoration: none;
+    }
+    
+    .navbar a:hover {
+        color: #1abc9c;
+    
+    }
+    
+    .searchicon {
+        float: left;
+        width: 20%;
+        margin-left: 10px;
+        font-weight: bold;
+        font-size: 20px;
+        border-left: 1px solid rgb(235, 222, 222);
+    }
+    
+    .searchicon h1 {
+        margin-left: 20px;
+    }
+    
+    .nav {
+        height: 50px;
+        width: 100%;
+        background-color: #1abc9c;
+        /* border:  1px solid red; */
+    }
+    
+    .nav1 {
+        width: 30%;
+        float: left;
+    }
+    
+    .nav1 p {
+        margin-top: 18px;
+        margin-left: 30px;
+        color: white;
+    }
+    
+    .nav2 {
+        width: 70%;
+        float: left;
+        margin-top: 18px;
+    }
+    
+    .nav2 a {
+    
+        margin: 10px;
+        color: white;
+        text-decoration: none;
+    }
+    
+    .nav2 a:hover {
+        /* height: 40px;
+        width: 40px; */
+        background-color: rgba(10, 40, 124, 0.103);
+        /* margin: 15px; */
+        padding: 15px;
+        border-radius: 10px 10px 10px 10px;
+    }
+    .portfolio
+    {
+        height: 200px;
+        width: 100%;
+        background-color: gainsboro;
+    }
+    .portfolio1
+    {
+    float: left;
+    width: 80%;
+    }
+    .portfolio1 h1
+    {
+        margin-top: 40px;
+        margin-left: 30px;
+       
+    }
+    .portfolio1 p
+    {
+        
+        margin-left: 30px;
+       
+    }
+    .portfolio2
+    {
+    float: left;
+    width: 15%;
+    margin-top: 80px;
+    
+    }
+    .main_contents
+    {
+        height: auto;
+        width: 100%;
+        /* background-color: rgb(15, 76, 129); */
+        /* margin-top: 10px; */
+        /* border: 1px solid red; */
+    
+    }
+    .main1
+    {
+        width: 50%;
+        height: auto;
+        /* background-color: green; */
+        float: left;
+    }
+    .main2
+    {
+        width: 50%;
+        height: auto;
+        /* background-color: rgb(42, 46, 42); */
+        float: left;
+    }
+    .box1
+    {
+        height: 200px;
+        width: 300px;
+        /* border: 1px solid yellow; */
+        float: left;
+        margin-left: 30px;
+    }
+    .box2
+    {
+        height: 200px;
+        width: 300px;
+        /* border: 1px solid yellow; */
+        float: left;
+        margin-left: 30px;
+    }
+    .main_contents_section
+    {
+        margin-top: 100px;
+    }
+    .footer
+    {
+        height: 300px;
+        width: 100%;
+        background-color: black;
+        /* border: 1px solid red; */
+        margin-top: 400px;
+    }
+    .footer1
+    {
+        width: 25%;
+        float: left;
+        color: white;
+        margin-top: 40px;
+        margin-left: 50px;
+    }
+    .footer2
+    {
+        width: 25%;
+        float: left;
+        color: white;
+        margin-top: 40px;
+        
+    }
+    .footer3
+    {
+        width: 25%;
+        float: left;
+        color: white;
+        margin-top: 40px;
+    
+    }
+    .footer4
+    {
+        width: 20%;
+        float: left;
+        color: white;
+        margin-top: 40px;
+        
+    }
+    .copyright
+    {
+        text-align: center;
+        height: 30px;
+        width: 100%;
+        background-color: #1abc9c;
+        color: white;
+    }
+}
